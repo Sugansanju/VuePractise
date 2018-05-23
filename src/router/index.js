@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Vfor from '@/components/V-for/Vfor'
 import Vif from '@/components/V-if/Vif'
 import Vshow from '@/components/V-show/Vshow'
+import Vmodel from '@/components/V-model/V-model'
 Vue.use(Router)
 
 export default new Router({
@@ -27,6 +28,11 @@ export default new Router({
       path: '/vshow',
       name: 'Vshow',
       component:Vshow
+    },
+    {
+      path: '/vmodel',
+      name: 'Vmodel',
+      component:Vmodel
     }
   ]
 })
