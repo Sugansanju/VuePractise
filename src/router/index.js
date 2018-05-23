@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Vfor from '@/components/V-for/Vfor'
+import Vif from '@/components/V-if/Vif'
 Vue.use(Router)
 
 export default new Router({
@@ -15,6 +16,11 @@ export default new Router({
       path: '/vfor',
       name: 'Vfor',
       component:Vfor
+    },
+    {
+      path: '/vif',
+      name: 'Vif',
+      component:Vif
     }
   ]
 })
